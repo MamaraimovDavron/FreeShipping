@@ -1,4 +1,4 @@
-.main--container{
+.first--container{
     nav{
         // border: 1px solid;
         display: flex;
@@ -7,6 +7,7 @@
         align-items: center;
         padding: 10px 30px;
         background-color: white;
+        height: 86px;
         .logo{
             a{
                 font-size: 30px;
@@ -94,7 +95,7 @@
         .img1{
             position: absolute;
             height: 118px;
-            left: 0.06%;
+            left: 0.006%;
             right: -0.17%;
             top: 5%;
         }
@@ -181,6 +182,27 @@
             left: 65%;
             right: 0.16%;
             top: 75%;
+        }
+    }
+
+    .box-one-footer{
+        height: calc(100vh - 833px);
+        background-color: white;
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #EAC1BF;
+        border-bottom: 1px solid #EAC1BF;
+        marquee{
+            h3{
+                font-family: 'Roboto',sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 20px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: #000000;
+            }
         }
     }
 }

@@ -10,12 +10,14 @@
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color:#E5E5E5;
 }
 
-.main--container{
-    height: 100vh;
+.first--container{
+    // height: 100vh;
     width: 1455px;
     display: flex;
     flex-direction: column;
