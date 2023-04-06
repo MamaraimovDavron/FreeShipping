@@ -183,6 +183,37 @@
             right: 0.16%;
             top: 75%;
         }
+
+        .shop-button{
+            position: absolute;
+            width: 150px;
+            height: 148px;
+            left: 85%;
+            right: 0%;
+            top: 74%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000000;
+            border-radius: 74px;
+            a{
+                display: block;
+                width: 59px;
+                // height: 20px;
+                text-decoration: none;
+                font-family: 'Roboto',sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                // line-height: 150px;
+                /* identical to box height, or 100% */
+                // border: 1px solid white;
+                text-align: center;
+                text-transform: uppercase;
+                
+                color: #FFFFFF;
+            }
+        }
     }
 
     .box-one-footer{
