@@ -1,0 +1,523 @@
+.first--container nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: white;
+  height: 86px;
+}
+.first--container nav .logo a {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.first--container nav .text-price a {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.first--container nav .icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+.first--container nav .icons a {
+  font-size: 20px;
+  color: black;
+}
+.first--container .box-one {
+  background-image: url("./../../assets/box-one/Rectangle.png");
+  width: 100%;
+  height: 747px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first--container .box-one h1 {
+  width: 295px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 118px;
+  line-height: 120px;
+  text-align: center;
+  color: #000000;
+}
+.first--container .box-one h2 {
+  width: 760px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 117px;
+  line-height: 120px;
+  /* identical to box height, or 103% */
+  text-align: center;
+  color: #000000;
+}
+.first--container .box-one h3 {
+  width: 357px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 117px;
+  line-height: 120px;
+  /* identical to box height, or 103% */
+  text-align: center;
+  color: #000000;
+}
+.first--container .box-one .img1 {
+  position: absolute;
+  height: 118px;
+  left: 0.006%;
+  right: -0.17%;
+  top: 5%;
+}
+.first--container .box-one .img2 {
+  position: absolute;
+  height: 129px;
+  left: 10%;
+  right: 0%;
+  top: 17%;
+}
+.first--container .box-one .img3 {
+  position: absolute;
+  left: 37%;
+  right: -0.19%;
+  top: -0.1%;
+}
+.first--container .box-one .img4 {
+  position: absolute;
+  height: 102px;
+  left: 56%;
+  right: 0.16%;
+  top: 4%;
+}
+.first--container .box-one .img5 {
+  position: absolute;
+  height: 90px;
+  left: 75%;
+  right: -0.15%;
+  top: 25%;
+}
+.first--container .box-one .img6 {
+  position: absolute;
+  left: 90%;
+  right: -0.2%;
+  top: 10%;
+}
+.first--container .box-one .img7 {
+  position: absolute;
+  left: 4.26%;
+  right: -0.26%;
+  top: 45%;
+}
+.first--container .box-one .img8 {
+  position: absolute;
+  left: 84.36%;
+  right: -0.36%;
+  top: 52%;
+}
+.first--container .box-one .img9 {
+  position: absolute;
+  top: 76%;
+  left: 0;
+}
+.first--container .box-one .img10 {
+  position: absolute;
+  left: 13%;
+  right: 0%;
+  top: 70%;
+}
+.first--container .box-one .img11 {
+  position: absolute;
+  left: 43%;
+  right: 0.13%;
+  top: 90%;
+}
+.first--container .box-one .img12 {
+  position: absolute;
+  left: 65%;
+  right: 0.16%;
+  top: 75%;
+}
+.first--container .box-one .shop-button {
+  position: absolute;
+  width: 150px;
+  height: 148px;
+  left: 85%;
+  right: 0%;
+  top: 74%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000;
+  border-radius: 74px;
+}
+.first--container .box-one .shop-button a {
+  display: block;
+  width: 59px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.first--container .box-one-footer {
+  height: calc(100vh - 833px);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #EAC1BF;
+  border-bottom: 1px solid #EAC1BF;
+}
+.first--container .box-one-footer marquee h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.second--container {
+  width: 1455px;
+  height: 900px;
+  background-image: url("../../assets/box-two/Rectangle (14).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.second--container .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 100px;
+}
+.second--container .left .text-box {
+  width: 428px;
+  height: 476px;
+}
+.second--container .left .text-box h3 {
+  font-family: "Bodoni MT", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 68px;
+  color: #000000;
+  text-align: left;
+}
+.second--container .left a {
+  display: block;
+  line-height: 48px;
+  text-decoration: none;
+  background-color: #000000;
+  border-radius: 32px;
+  width: 190px;
+  height: 48px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.second--container .right {
+  height: 676px;
+  border-radius: 0px;
+  position: relative;
+  z-index: 1;
+}
+.second--container .right .green {
+  position: absolute;
+  width: 570px;
+  height: 588px;
+  left: -5%;
+  top: 10%;
+  background: rgba(63, 202, 135, 0.31);
+  filter: blur(50px);
+  border-radius: 116px;
+  z-index: -1;
+}
+
+.third--container {
+  width: 1455px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+}
+.third--container .third--container-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 280px;
+}
+.third--container .third--container-one .left {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.third--container .third--container-one .left span {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 48px;
+  top: 88%;
+  width: 282px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 32px;
+  cursor: pointer;
+}
+.third--container .third--container-one .left span:hover a {
+  color: white;
+  transition: 0.5s;
+}
+.third--container .third--container-one .left span a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.third--container .third--container-one .left img {
+  width: 581px;
+  height: 609px;
+  left: 14.97px;
+  top: 35px;
+}
+.third--container .third--container-one .right {
+  width: 235px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.third--container .third--container-one .right .text-1, .third--container .third--container-one .right .text-2, .third--container .third--container-one .right .text-3 {
+  height: 96px;
+  padding-top: 5px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #000000;
+}
+.third--container .third--container-one .right .author-1, .third--container .third--container-one .right .author-2, .third--container .third--container-one .right .author-3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  /* identical to box height, or 107% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.third--container-two {
+  display: flex;
+  width: 1455px;
+  height: 100vh;
+  border-top: 1px solid #EAC1BF;
+  border-bottom: 1px solid #EAC1BF;
+  background-color: white;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.third--container-two .left {
+  width: 30%;
+}
+.third--container-two .left h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  padding-left: 80px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.third--container-two .left .color-types {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.third--container-two .left .color-types span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.third--container-two .left .color-types span h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 48px;
+  /* identical to box height, or 102% */
+  text-align: center;
+  color: #000000;
+}
+.third--container-two .left .button-img {
+  display: inline-block;
+  position: relative;
+  left: 80px;
+  top: 30px;
+}
+.third--container-two .left .button-img img {
+  width: 253px;
+  height: 48px;
+}
+.third--container-two .left .button-img h3 {
+  padding: 0;
+  position: absolute;
+  left: 12%;
+  top: 30%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+.third--container-two .right {
+  width: 52%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.third--container-two .right .background-color {
+  position: absolute;
+  top: 2840px;
+  z-index: 0;
+  width: 659px;
+  height: 652px;
+}
+.third--container-two .right .tower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 542px;
+  width: 348px;
+  background-color: #FFFFFF;
+  border: 1px solid #EAC1BF;
+  border-radius: 16px;
+  z-index: 1;
+}
+.third--container-two .right .tower h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.third--container-two .right .tower h4 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  letter-spacing: 1px;
+  color: #000000;
+}
+.third--container-two .right .pyramid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 542px;
+  width: 348px;
+  background-color: #FFFFFF;
+  border: 1px solid #EAC1BF;
+  z-index: 1;
+  border-radius: 16px;
+}
+.third--container-two .right .pyramid h3 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.third--container-two .right .pyramid h4 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E5E5;
+}
+
+.first--container {
+  width: 1455px;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=styles.css.map */
